@@ -60,6 +60,7 @@ registerBlockType( 'tea-block/tea-information', {
 			<div className={ props.className }>
 				<p>This will display information about a type of tea. Please select a tea type from the list below.</p>
 				<TeaTypeSelect teaType={ teaType } onTeaTypeChange={ selectedType => props.setAttributes( { teaType: selectedType } ) } />
+				<TeaTypeInfo teaType={ teaType } />
 			</div>
 		);
 	},
