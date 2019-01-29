@@ -1,0 +1,14 @@
+{
+  "name": "my-block-tea-information-block",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cgb-scripts start",
+    "build": "cgb-scripts build",
+    "eject": "cgb-scripts eject"
+  },
+  "dependencies": {
+    "@wordpress/compose": "^3.0.1",
+    "cgb-scripts": "1.14.0"
+  }
+}
